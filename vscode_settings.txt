@@ -1,0 +1,185 @@
+{
+  // //? Operator Mono Lig Font Settings:
+  "editor.fontFamily": "Operator Mono Lig,Consolas, 'Courier New', monospace",
+  "editor.fontSize": 11,
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 15,
+  "editor.fontWeight": "100",
+
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontFamily": "Operator Mono Lig",
+  "terminal.integrated.letterSpacing": 1.6,
+  "editor.fontLigatures": true,
+  //? vscode settings:
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "editor.cursorBlinking": "expand",
+  "editor.find.cursorMoveOnType": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "ejs": "html"
+  },
+  "[ejs]": {
+    "editor.defaultFormatter": "j69.ejs-beautify"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.env.windows": {},
+  "git.autofetch": true,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "bottom",
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontWeight": "100",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "code-runner.runInTerminal": true,
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.startupPrompt": "always",
+  "security.workspace.trust.banner": "always",
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showExecutionMessage": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "vsicons.dontShowNewVersionMessage": true,
+  "database-client.autoSync": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.copyOnSelection": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "editor.linkedEditing": true,
+  "typescript.suggest.paths": true,
+  "javascript.suggest.paths": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
+  "jupyter.themeMatplotlibPlots": true,
+  "notebook.defaultFormatter": "ms-python.black-formatter",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "chat.commandCenter.enabled": false,
+  "terminal.integrated.fontLigatures": true,
+  "notebook.confirmDeleteRunningCell": false,
+  "mdb.confirmRunAll": false,
+  "mdb.confirmDeleteDocument": false,
+  "mdb.defaultLimit": 30,
+  "mdb.presetConnections": [],
+  "extensions.ignoreRecommendations": true,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "material-icon-theme.folders.associations": {
+    "venv": "environment",
+    "references": "docs",
+    "modeling": "generator"
+  },
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "julia.symbolCacheDownload": false,
+  "julia.enableTelemetry": true,
+  "colorful-comments.multilineComments": true,
+  "colorful-comments.highlightPlainText": false,
+  "colorful-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#0076FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "^",
+      "color": "#EAF622",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#28FF00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "&",
+      "color": "#FF06A0",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "~",
+      "color": "#BE00FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "debug.terminal.clearBeforeReusing": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        // Run whenever any file is saved
+        "match": ".*",
+        "cmd": "echo '${fileBasename}' saved."
+      }
+    ]
+  },
+  "notebook.output.scrolling": true,
+  "notebook.output.fontFamily": "Operator Mono Lig",
+  "files.exclude": {
+    "**/.svn": false
+  },
+  "workbench.colorTheme": "Triumph OG"
+}
+
+// "[python]": {
+//   "editor.defaultFormatter": "ms-python.black-formatter"
+// },
+// **/.git
